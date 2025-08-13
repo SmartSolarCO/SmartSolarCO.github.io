@@ -1,8 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-axA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Smart Solar - Riego Inteligente</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -36,11 +36,15 @@
   }
 }
 </script>
+<!-- Add Babel to transpile JSX/TSX in the browser -->
+<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
 <link rel="stylesheet" href="/index.css">
 </head>
 <body class="bg-white">
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!-- Change script type to text/babel to allow in-browser transpilation of TSX. -->
+    <!-- data-type="module" is used by Babel to handle ES modules correctly with import maps. -->
+    <script type="text/babel" data-type="module" data-presets="react,typescript" src="./index.tsx"></script>
 <script type="module" src="/index.tsx"></script>
 </body>
 </html>
