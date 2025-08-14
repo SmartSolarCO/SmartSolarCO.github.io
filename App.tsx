@@ -10,6 +10,7 @@ import Testimonials from './components/Testimonials';
 import CTAForm from './components/CTAForm';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import './index.css';
 
 function App() {
   return (

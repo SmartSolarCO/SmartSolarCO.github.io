@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Solution = () => {
@@ -8,9 +7,10 @@ const Solution = () => {
         <div className="flex flex-col md:flex-row items-center gap-12 md:gap-16">
           <div className="md:w-1/2">
             <img 
-              src="https://picsum.photos/id/1012/600/400" 
-              alt="Agricultor sonriendo con su cosecha" 
+              src="assets/solution.png" 
+              alt="Sistema Smart Solar en funcionamiento en un cultivo" 
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
+              loading="lazy"
             />
           </div>
           <div className="md:w-1/2 text-center md:text-left">

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { SunIcon, FacebookIcon, YouTubeIcon } from './Icons';
 
@@ -24,10 +23,10 @@ const Footer = () => {
                     <div>
                         <h3 className="font-bold text-lg mb-4">Síganos en:</h3>
                         <div className="flex justify-center md:justify-start space-x-4">
-                            <a href="#" aria-label="Facebook" className="text-gray-300 hover:text-smart-yellow transition-colors">
+                            <a href="https://facebook.com/smartsolar.co" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-gray-300 hover:text-smart-yellow transition-colors">
                                 <FacebookIcon className="w-8 h-8" />
                             </a>
-                            <a href="#" aria-label="YouTube" className="text-gray-300 hover:text-smart-yellow transition-colors">
+                            <a href="https://youtube.com/smartsolar.co" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-gray-300 hover:text-smart-yellow transition-colors">
                                 <YouTubeIcon className="w-8 h-8" />
                             </a>
                         </div>

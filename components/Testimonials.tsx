@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 interface TestimonialCardProps {
@@ -31,13 +30,13 @@ const Testimonials = () => {
                         quote="Antes terminaba el día agotado solo por el riego. Con Smart Solar, ese peso se fue. Ahora tengo tiempo hasta para arreglar la cerca y estar con mi familia. La inversión se pagó sola con el ahorro en gasolina."
                         name="José Vargas"
                         location="Productor de Hortalizas en Boyacá"
-                        imageUrl="https://picsum.photos/id/1015/300/400"
+                        imageUrl="assets/jose-vargas.jpg"
                     />
                     <TestimonialCard 
                         quote="En mi finca la luz falla mucho. Con Smart Solar eso ya no es un problema. Tengo la seguridad de que mis matas de café siempre tienen el agua que necesitan. La cosecha salió mejor que nunca."
                         name="María Rojas"
                         location="Caficultora en Antioquia"
-                        imageUrl="https://picsum.photos/id/1027/300/400"
+                        imageUrl="assets/maria-rojas.jpg"
                     />
                 </div>
             </div>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Hero = () => {
@@ -7,7 +6,13 @@ const Hero = () => {
     };
 
     return (
-        <section className="relative h-[90vh] min-h-[600px] flex items-center justify-center text-white text-center" style={{ backgroundImage: "url('https://picsum.photos/1600/900?image=1055')", backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <section className="relative h-[90vh] min-h-[600px] flex items-center justify-center text-white text-center">
+            <img 
+                src="assets/hero.png" 
+                alt="" 
+                aria-hidden="true"
+                className="absolute inset-0 w-full h-full object-cover" 
+            />
             <div className="absolute inset-0 bg-black/60"></div>
             <div className="relative z-10 p-6 max-w-4xl mx-auto">
                 <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-down" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}>
